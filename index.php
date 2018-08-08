@@ -77,6 +77,43 @@ $ruta = "https://raw.githubusercontent.com/MishelCenteno/ProyectoSOA/master/vehi
             
         </div>
     </div>
+      <!-- Begin Footer -->
+    <footer class="page-footer font-small teal pt-4">
+
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Stalin Maza</h5>
+          <p>Analisis de Sistemas Informáticos - EPN Ecuador</p>
+        </div>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mb-md-0 mb-3">
+          <!-- Content -->
+          <h5 class="text-uppercase font-weight-bold">Mishel Centeno</h5>
+          <p>Analisis de Sistemas Informáticos - EPN Ecuador</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Text -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+        <p>© 2018 Derechos Reservados:</p>      
+    </div>
+    <!-- Copyright -->
+        </footer>
+  <!-- End Footer -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
