@@ -2,6 +2,11 @@
 
 Se implementa una bdd que exporta sus datos hacia un archivo XML que es alojado en el Internet para poder ser consumido desde cualquier otra aplicacion
 
+Autores:
+
+* Mishel Centeno
+* Stalin Maza
+
 ## Usage
 
 Start Bootstrap es una libreria open open source library de temas bootstrap. Estos temas estan controlados bajo la licencia MIT que significa que se la puede usar incluso para proyectos comerciales.
