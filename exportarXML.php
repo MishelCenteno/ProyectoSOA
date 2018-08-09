@@ -37,14 +37,14 @@ mysqli_select_db($dwes,$db_nombrebdd) or die (" Base no se encuentra"); //verifi
 if (isset($dwes))
 {
 
-	$a = $sql="SHOW TABLES";
+	$a = $sql="SHOW TABLE";
     $xml="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-	$b=mysqli_query($dwes,$a);
+	/*$b=mysqli_query($dwes,$a);
 	while(($ver=mysqli_fetch_row($b))==true)
 	{
 	echo $ver[0]." ";
-	echo "<br/>";
-	$xml .= "\t<".$ver[0].">\n";
+	echo "<br/>";*/
+	$xml .= "\t<vehiculos>\n";
     $c= $sql="select *from vehiculos";
     $d=mysqli_query($dwes,$c);
     echo "Datos de la tabla Vehículos";
@@ -64,23 +64,24 @@ if (isset($dwes))
             }
             $xml .= "\t\t</vehiculo>\n";
 		}
-        $xml .= "\t</".$ver[0].">\n";
+        $xml .= "\t</vehiculos>\n";
 	
-	}
+	/*}*/
 	
 	crear_ficheroV($xml); 
 }
+
 if (isset($dwes))
 {
 
-	$a = $sql="SHOW TABLES";
+	$r = $sql="SHOW TABLES";
     $xml="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-	$b=mysqli_query($dwes,$a);
+	/*$b=mysqli_query($dwes,$r);
 	while(($ver=mysqli_fetch_row($b))==true)
 	{
-	echo $ver[0]." ";
+	echo $ver[0]." ";*/
 	echo "<br/>";
-	$xml .= "\t<".$ver[0].">\n";
+	$xml .= "\t<reservaciones>\n";
     $c= $sql="select *from reservaciones";
     $d=mysqli_query($dwes,$c);
     echo "Datos de la tabla Reservaciones";
@@ -100,9 +101,9 @@ if (isset($dwes))
             }
             $xml .= "\t\t</reservacion>\n";
 		}
-        $xml .= "\t</".$ver[0].">\n";
+        $xml .= "\t</reservaciones>\n";
 	
-	}
+	/*}*/
 	
 	crear_ficheroR($xml); 
 }
