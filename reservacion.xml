@@ -8,7 +8,7 @@
 			<precio>0</precio>
 			<fechaIngreso>2018-08-08</fechaIngreso>
 			<fechaSalida>2018-08-16</fechaSalida>
-			<Comentarios>Habitaci髇 con ventilaci髇</Comentarios>
+			<Comentarios>Habitaci贸n con ventilaci贸n</Comentarios>
 			<url>https://www.hillaryresort.com/wp-content/uploads/2018/01/vip.jpg</url>
 		</reservacion>
 		<reservacion>
@@ -19,12 +19,12 @@
 			<precio>50</precio>
 			<fechaIngreso>2018-08-05</fechaIngreso>
 			<fechaSalida>2018-08-31</fechaSalida>
-			<Comentarios>Sin servicio a la habitaci髇 </Comentarios>
+			<Comentarios>Sin servicio a la habitaci贸n </Comentarios>
 			<url>https://d1bvpoagx8hqbg.cloudfront.net/originals/habitacion-tipo-estudio-bano-privado-75f7fdfc0f9e40fc9ce8fc1fcbb8b1e3.jpg</url>
 		</reservacion>
 		<reservacion>
 			<ID>3</ID>
-			<nombreCliente>Mar韆 Jhonson</nombreCliente>
+			<nombreCliente>Mar铆a Jhonson</nombreCliente>
 			<tipoHabitacion>Doble de uso individual</tipoHabitacion>
 			<codigoHabitacion>h-03</codigoHabitacion>
 			<precio>75</precio>
@@ -36,7 +36,7 @@
 		<reservacion>
 			<ID>4</ID>
 			<nombreCliente>Jhon Stim</nombreCliente>
-			<tipoHabitacion>Habitaci髇 doble</tipoHabitacion>
+			<tipoHabitacion>Habitaci贸n doble</tipoHabitacion>
 			<codigoHabitacion>h-04</codigoHabitacion>
 			<precio>200</precio>
 			<fechaIngreso>2018-08-10</fechaIngreso>
