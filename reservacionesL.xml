@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<reservaciones>
+		<reservacion>
+			<ID>1</ID>
+			<nombreCliente>Carlos Parra</nombreCliente>
+			<tipoHabitacion>VIP</tipoHabitacion>
+			<codigoHabitacion>h-01</codigoHabitacion>
+			<precio>0</precio>
+			<fechaIngreso>2018-08-08</fechaIngreso>
+			<fechaSalida>2018-08-16</fechaSalida>
+			<Comentarios>Habitacion con ventilacion</Comentarios>
+			<url>https://www.hillaryresort.com/wp-content/uploads/2018/01/vip.jpg</url>
+		</reservacion>
+		<reservacion>
+			<ID>2</ID>
+			<nombreCliente>Jose Lopez</nombreCliente>
+			<tipoHabitacion>Individual</tipoHabitacion>
+			<codigoHabitacion>h-02</codigoHabitacion>
+			<precio>50</precio>
+			<fechaIngreso>2018-08-05</fechaIngreso>
+			<fechaSalida>2018-08-31</fechaSalida>
+			<Comentarios>Sin servicio a la habitacion </Comentarios>
+			<url>https://d1bvpoagx8hqbg.cloudfront.net/originals/habitacion-tipo-estudio-bano-privado-75f7fdfc0f9e40fc9ce8fc1fcbb8b1e3.jpg</url>
+		</reservacion>
+		<reservacion>
+			<ID>3</ID>
+			<nombreCliente>Maria Jhonson</nombreCliente>
+			<tipoHabitacion>Doble de uso individual</tipoHabitacion>
+			<codigoHabitacion>h-03</codigoHabitacion>
+			<precio>75</precio>
+			<fechaIngreso>2018-08-08</fechaIngreso>
+			<fechaSalida>2018-08-31</fechaSalida>
+			<Comentarios>Servicio al cuarto</Comentarios>
+			<url>http://www.jardineslatejera.com/wp-content/uploads/2013/04/habitacion-doble1-640x335.jpg</url>
+		</reservacion>
+		<reservacion>
+			<ID>4</ID>
+			<nombreCliente>Jhon Stim</nombreCliente>
+			<tipoHabitacion>Habitacion doble</tipoHabitacion>
+			<codigoHabitacion>h-04</codigoHabitacion>
+			<precio>200</precio>
+			<fechaIngreso>2018-08-10</fechaIngreso>
+			<fechaSalida>2018-08-16</fechaSalida>
+			<Comentarios>Bebidas</Comentarios>
+			<url>http://www.hotelsantafereal.com/real/media/djcatalog2/images/habitacion-doble.4_f.jpg</url>
+		</reservacion>
+		<reservacion>
+			<ID>5</ID>
+			<nombreCliente>Lila Casa</nombreCliente>
+			<tipoHabitacion>Suites</tipoHabitacion>
+			<codigoHabitacion>h-05</codigoHabitacion>
+			<precio>300</precio>
+			<fechaIngreso>2018-08-09</fechaIngreso>
+			<fechaSalida>2018-08-11</fechaSalida>
+			<Comentarios>Todos los servicios</Comentarios>
+			<url>https://cdnh.octanio.com/photos/11/11869H/11869_6.jpeg</url>
+		</reservacion>
+	</reservaciones>
